@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GezginRehber" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        
+        <!-- Bottom Navigation Style -->
+        <item name="bottomNavigationStyle">@style/Widget.BottomNavigationView</item>
+        
+        <!-- Toolbar Style -->
+        <item name="toolbarStyle">@style/Widget.App.Toolbar</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.GezginRehber.Splash" parent="Theme.GezginRehber">
+        <!-- Show brand color or app icon background during splash -->
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <!-- Optional: Remove status bar color for full screen -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+    
+    <!-- Bottom Navigation Style -->
+    <style name="Widget.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@drawable/bottom_nav_color_selector</item>
+        <item name="itemTextColor">@drawable/bottom_nav_color_selector</item>
+        <item name="itemBackground">?attr/selectableItemBackground</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">?android:attr/windowBackground</item>
+        <item name="elevation">8dp</item>
+    </style>
+    
+    <!-- Toolbar Style -->
+    <style name="Widget.App.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    
+    <!-- For backward compatibility -->
+    <style name="Theme.GezginRehberBüt" parent="Theme.GezginRehber" />
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384292158202",
+    "project_id": "gezginrehber-29594",
+    "storage_bucket": "gezginrehber-29594.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384292158202:android:48bbe0d4748c5ff1d6e743",
+        "android_client_info": {
+          "package_name": "com.example.gezginrehberbt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD29KmsDvhWIR7uRSJoBmC-fXwx9wazqFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

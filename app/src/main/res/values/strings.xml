@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">GezginRehber</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="title_explore">Keşfet</string>
+    <string name="title_favorites">Favoriler</string>
+    <string name="title_add">Ekle</string>
+    <string name="title_calendar">Takvim</string>
+    <string name="title_profile">Profil</string>
+    
+    <!-- Common -->
+    <string name="error_occurred">Bir hata oluştu</string>
+    <string name="try_again">Tekrar Dene</string>
+    <string name="loading">Yükleniyor…</string>
+    
+    <!-- Explore Screen -->
+    <string name="search_places">Mekan ara…</string>
+    <string name="top_picks">Sizin İçin Öneriler</string>
+    <string name="popular_places">Popüler Mekanlar</string>
+    <string name="see_all">Tümünü Gör</string>
+    
+    <!-- Place Detail -->
+    <string name="direction">Yol Tarifi</string>
+    <string name="save">Kaydet</string>
+    <string name="call">Ara</string>
+    <string name="menu">Menü</string>
+    <string name="reviews">Yorumlar</string>
+    <string name="write_review">Yorum Yap</string>
+    <string name="about">Hakkında</string>
+    <string name="features">Özellikler</string>
+    <string name="opening_hours">Çalışma Saatleri</string>
+    <string name="closed">Kapalı</string>
+    <string name="open">Açık</string>
+    <string name="km_away">km uzaklıkta</string>
+    
+    <!-- Auth -->
+    <string name="welcome_back">Hoş Geldiniz</string>
+    <string name="sign_in_to_continue">Devam etmek için giriş yapın</string>
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="dont_have_an_account">Hesabınız yok mu?</string>
+    <string name="already_have_account">Zaten hesabınız var mı?</string>
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="name">Ad Soyad</string>
+    <string name="confirm_password">Şifre Tekrar</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="fill_your_details">Bilgilerinizi doldurarak hesabınızı oluşturun</string>
+    
+    <!-- Map -->
+    <string name="expand_map">Haritayı tam ekran göster</string>
+    <string name="location_permission_required">Konum izni gerekiyor</string>
+    <string name="location_permission_message">Konum özelliklerini kullanabilmek için lütfen konum izni verin</string>
+    <string name="open_settings">Ayarlar</string>
+    <string name="cancel">İptal</string>
+    <string name="login_here">Giriş Yapın</string>
+    <string name="login">Giriş Yap</string>
+    
+    <!-- Validation Errors -->
+    <string name="error_name_empty">Lütfen adınızı giriniz</string>
+    <string name="error_email_empty">Lütfen e-posta adresinizi giriniz</string>
+    <string name="error_email_invalid">Geçerli bir e-posta adresi giriniz</string>
+    <string name="error_password_empty">Lütfen şifrenizi giriniz</string>
+    <string name="error_password_length">Şifre en az 6 karakter olmalıdır</string>
+    <string name="error_passwords_not_match">Şifreler eşleşmiyor</string>
+    <string name="error_network">Ağ bağlantısında bir sorun oluştu</string>
+    <string name="error_unknown">Beklenmeyen bir hata oluştu</string>
+    
+    <!-- Success Messages -->
+    <string name="success_register">Başarıyla kayıt olundu</string>
+    <string name="success_login">Başarıyla giriş yapıldı</string>
+    
+    <!-- Colors -->
+    <string name="color_primary">#2196F3</string>
+    <string name="color_primary_dark">#1976D2</string>
+    <string name="color_accent">#FF4081</string>
+    <string name="white">#FFFFFF</string>
+    <string name="black">#000000</string>
+    <string name="gray_200">#EEEEEE</string>
+    <string name="gray_400">#BDBDBD</string>
+    <string name="gray_600">#757575</string>
+    
+    <!-- Dimensions -->
+    <string name="space_small">4dp</string>
+    <string name="space_medium">8dp</string>
+    <string name="space_large">16dp</string>
+    <string name="space_xlarge">24dp</string>
+    <string name="space_xxlarge">32dp</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/citySelectFragment">
+
+    <fragment
+        android:id="@+id/citySelectFragment"
+        android:name="com.example.gezginrehberbt.ui.city.CitySelectFragment"
+        android:label="Şehir Seç"
+        tools:layout="@layout/fragment_city_select" >
+        <action
+            android:id="@+id/action_citySelectFragment_to_placeDetailFragment"
+            app:destination="@id/placeDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_explore"
+        android:name="com.example.gezginrehberbt.ui.explore.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.gezginrehberbt.ui.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.example.gezginrehberbt.ui.add.AddPlaceFragment"
+        android:label="@string/title_add"
+        tools:layout="@layout/fragment_add_place" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.gezginrehberbt.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.gezginrehberbt.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_navigation_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.gezginrehberbt.ui.profile.EditProfileFragment"
+        android:label="EditProfileFragment"
+        tools:layout="@layout/fragment_edit_profile" />
+
+    <fragment
+        android:id="@+id/placeDetailFragment"
+        android:name="com.example.gezginrehberbt.ui.placedetail.PlaceDetailFragment"
+        android:label="Place Detail"
+        tools:layout="@layout/fragment_place_detail">
+        <argument
+            android:name="place"
+            app:argType="com.example.gezginrehberbt.model.Place" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_citySelect_to_navigation_explore"
+        app:destination="@id/navigation_explore" />
+
+    <action
+        android:id="@+id/action_navigation_explore_to_placeDetailFragment"
+        app:destination="@id/placeDetailFragment" />
+
+    <action
+        android:id="@+id/action_navigation_favorites_to_placeDetailFragment"
+        app:destination="@id/placeDetailFragment" />
+
+</navigation>
