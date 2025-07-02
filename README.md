@@ -20,7 +20,6 @@ Gezgin Rehber, gezginler için kapsamlı bir mobil rehber uygulamasıdır. Kulla
 - **Navigasyon:** Navigation Component
 - **Asenkron İşlemler:** Kotlin Coroutines
 - **UI Bileşenleri:** Material Design Components
-- **Debug Araçları:** Stetho
 
 ## Proje bağlantısı
 https://github.com/yourusername/GezginRehberBt
