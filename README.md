@@ -1,5 +1,5 @@
 Proje Açıklaması
-Gezgin Rehber BT, gezginler için kapsamlı bir mobil rehber uygulamasıdır. Kullanıcılar, çeşitli turistik yerleri keşfedebilir, favorilere ekleyebilir ve bu yerler hakkında detaylı bilgilere erişebilir.
+Gezgin Rehber, gezginler için kapsamlı bir mobil rehber uygulamasıdır. Kullanıcılar, çeşitli turistik yerleri keşfedebilir, favorilere ekleyebilir ve bu yerler hakkında detaylı bilgilere erişebilir.
 
 Özellikler
 Kullanıcı kimlik doğrulama ve profil yönetimi
